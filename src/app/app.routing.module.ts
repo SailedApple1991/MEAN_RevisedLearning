@@ -3,11 +3,13 @@ import { Routes, Router, RouterModule } from '@angular/router';
 import { ServeItemsComponent } from './tabs/serve-items/serve-items.component';
 import { AppComponent } from './app.component';
 import { MainCardComponent } from './card/main-card/main-card.component';
+import { WorkHoursComponent } from './card/work-hours/work-hours.component';
 
 
 const routes: Routes = [
-  { path:'', component: MainCardComponent},
-  { path: 'description', component: ServeItemsComponent}
+  { path: '', component: MainCardComponent},
+  { path: 'description', component: ServeItemsComponent},
+  { path: 'workhours', component: WorkHoursComponent}
 ];
 
 @NgModule({

@@ -34,9 +34,14 @@ export class MainCardComponent implements OnInit {
     </div>
   `;
 
-  public slidesList = new Array<never>(5);
+  // public slidesList = new Array<never>(5);
+  public slidesList: any[] = [
+    {image : '/assets/main-card/demo.png'},
+    {image : '/assets/main-card/massage-therapy1.jpg'},
+    {image : '/assets/main-card/massage-therapy2.jpg'},
+    {image : '/assets/main-card/massage-therapy3.jpg'},
+  ];
   public showContent = false;
-
   public timings = '250ms ease-in';
   public autoplay = true;
   public interval = 5000;
@@ -45,7 +50,7 @@ export class MainCardComponent implements OnInit {
   public hideIndicators = false;
   public color: ThemePalette = 'primary';
   public maxWidth = 'auto';
-  public proportion = 25;
+  public proportion = 50;
   public slides = this.slidesList.length;
   public overlayColor = '#00000040';
   public hideOverlay = false;

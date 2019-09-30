@@ -30,8 +30,11 @@ main {
 
 } */
 
+.content{
+  height:100vh;
+}
 #content-wrap{
-	width:100%;
+  width:100%;
 	margin:0 ;
 	background-color: #ddd;
 	overflow:hidden;
@@ -51,7 +54,6 @@ main {
 }
 
 .primary{
-  background-color: deeppink;
   flex:2;
   width:50%;
 }
