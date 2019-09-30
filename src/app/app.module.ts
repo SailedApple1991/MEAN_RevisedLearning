@@ -19,6 +19,7 @@ import { MainCardComponent } from './card/main-card/main-card.component';
 import { from } from 'rxjs';
 import { ServeItemsComponent } from './tabs/serve-items/serve-items.component';
 import { AppRoutingModule } from './app.routing.module';
+import { WorkHoursComponent } from './card/work-hours/work-hours.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,6 +30,7 @@ import { AppRoutingModule } from './app.routing.module';
     SidenavComponent,
     MainCardComponent,
     ServeItemsComponent,
+    WorkHoursComponent,
   ],
   imports: [
     BrowserModule,
