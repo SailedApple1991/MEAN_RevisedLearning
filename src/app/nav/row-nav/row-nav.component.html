@@ -1,11 +1,13 @@
 <mat-toolbar color="#fdd835" class = "navbar">
   <mat-toolbar-row>
-      <button mat-icon-button>
+    <div fxFlex.xs="376" fxHide.gt-xs = "true" fxHide.xs = "false">
+    <button mat-icon-button>
           <mat-icon>menu</mat-icon>
         </button>
+      </div>
         <h1>SimpleCRM</h1>
         <span class = "menu-spacer"></span>
-        <div fxFlex fxLayout fxLayoutAlign="flex-end" fxHide.xs>
+        <div fxFlex fxLayout fxLayoutAlign="flex-end" fxHide [fxHide.xs]>
           <ul fxLayout fxLayoutGap="10px" class = "navigation-items">
             <li><a mat-button routerLink="/" routerLinkActive="router-link-active">Home</a></li>
             <li><a mat-button routerLink="/description" routerLinkActive="router-link-active"  >Description</a></li>
