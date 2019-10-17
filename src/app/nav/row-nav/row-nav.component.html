@@ -1,7 +1,7 @@
 <mat-toolbar color="#fdd835" class = "navbar">
   <mat-toolbar-row>
     <div fxFlex.xs="376" fxHide.gt-xs = "true" fxHide.xs = "false">
-    <button mat-icon-button>
+    <button mat-icon-button (click)="openSideNav.toggle()">
           <mat-icon>menu</mat-icon>
         </button>
       </div>
@@ -12,11 +12,10 @@
             <li><a mat-button routerLink="/" routerLinkActive="router-link-active">Home</a></li>
             <li><a mat-button routerLink="/description" routerLinkActive="router-link-active"  >Description</a></li>
             <li><a mat-button routerLink="/workhours" routerLinkActive="router-link-active"  >Work Hours</a></li>
-            <li><a mat-button >VIP Card</a></li>
-            <li><a mat-button >Reservation</a></li>
-            <li><a mat-button >About6</a></li>
+            <li><a mat-button routerLink="/vip_apply" routerLinkActive="router-link-active" >VIP Card</a></li>
+            <li><a mat-button routerLink="/reservations" routerLinkActive="router-link-active" >Reservation</a></li>
+            <li><a mat-button routerLink="/about" routerLinkActive="router-link-active" >About</a></li>
           </ul>
-
         </div>
       </mat-toolbar-row>
 

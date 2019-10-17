@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
-
+import { Component, OnInit, Input } from '@angular/core';
+import { Router } from '@angular/router';
+import { SidenavComponent } from '../side-nav/sidenav.component';
 @Component({
   selector: 'app-row-nav',
   templateUrl: './row-nav.component.html',
@@ -7,9 +8,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RowNavComponent implements OnInit {
 
-  constructor() { }
+  // @Input() openSideNav: SidenavComponent;
+  SideNav : boolean ;
+  constructor(public SidenavComponent:SidenavComponent) { }
 
   ngOnInit() {
+
   }
 
+  sideNavBtnToggle(){
+    if(this.SideNav == false)
+    {
+           this.SideNav = true;
+    }
+    else{
+           this.SideNav = false;
+    }
 }

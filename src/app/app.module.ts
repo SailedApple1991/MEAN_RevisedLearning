@@ -20,6 +20,9 @@ import { from } from 'rxjs';
 import { ServeItemsComponent } from './tabs/serve-items/serve-items.component';
 import { AppRoutingModule } from './app.routing.module';
 import { WorkHoursComponent } from './card/work-hours/work-hours.component';
+import { VipCardComponent } from './card/vip-card/vip-card.component';
+import { ReservationsComponent } from './card/reservations/reservations.component';
+import { AboutComponent } from './card/about/about.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,6 +34,9 @@ import { WorkHoursComponent } from './card/work-hours/work-hours.component';
     MainCardComponent,
     ServeItemsComponent,
     WorkHoursComponent,
+    VipCardComponent,
+    ReservationsComponent,
+    AboutComponent,
   ],
   imports: [
     BrowserModule,
