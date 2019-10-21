@@ -1,2 +1,10 @@
-<mat-card>reservations works!</mat-card>
 
+<mat-card>
+    <mat-card-content>
+<agm-map [latitude]='latitude' [longitude]='longitude'
+[mapTypeId]='mapType' >
+<agm-marker [latitude]="latitude" [longitude]="longitude"></agm-marker>
+<agm-info-window>Börk</agm-info-window>
+</agm-map>qeweqwe
+</mat-card-content>
+</mat-card>

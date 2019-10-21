@@ -1,7 +1,5 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<meta name='viewport' content='width=device-width，initial-scale=1'>
-<mat-sidenav-container class = "sidebar-container">
-    <mat-sidenav #sideNav  [(opened)] = "opened" mode = "side" class = "sidebar" ></mat-sidenav>
+<meta name='viewport' content='width=device-width'>
 
 <header><app-header></app-header>
 </header>
@@ -12,17 +10,74 @@
 
 
   <div fxLayout="column"  fxLayoutGap="10px">
-    <div fxFlex.lt-md="50" fxFlex.lt-sm="100" ><app-row-nav>
+    <div fxFlex.lt-md="50" fxFlex.lt-sm="100" >
+        <mat-toolbar color="#fdd835" class = "navbar">
+            <mat-toolbar-row>
+                <!-- fxHide.gt-xs = "true" -->
+
+                <!-- <mat-sidenav-container class = "sidebar-container">
+                  <mat-sidenav [(opened)] = "opened" class = "sidebar"> Sidenav</mat-sidenav>
+                  <mat-sidenav-content class = "sidebar-content">
+
+                    main</mat-sidenav-content>
+
+                </mat-sidenav-container> -->
+                <div fxFlex.xs="376" fxHide.gt-xs = "true" fxHide.xs = "false">
+                    <button mat-icon-button >
+                        <mat-icon (click)="sidenav.toggle()">menu</mat-icon>
+                      </button>
+                  </div>
+                  <h1>SimpleCRM</h1>
+                  <span class = "menu-spacer"></span>
+                  <div fxFlex fxLayout fxLayoutAlign="flex-end" fxHide.xs = "true">
+                    <ul fxLayout fxLayoutGap="10px" class = "navigation-items">
+                      <li><a mat-button routerLink="/" routerLinkActive="router-link-active">Home</a></li>
+                      <li><a mat-button routerLink="/description" routerLinkActive="router-link-active"  >Description</a></li>
+                      <li><a mat-button routerLink="/workhours" routerLinkActive="router-link-active"  >Work Hours</a></li>
+                      <li><a mat-button routerLink="/vip_apply" routerLinkActive="router-link-active" >VIP Card</a></li>
+                      <li><a mat-button routerLink="/reservations" routerLinkActive="router-link-active" >Reservation</a></li>
+                      <li><a mat-button routerLink="/about" routerLinkActive="router-link-active" >About</a></li>
+                    </ul>
+                  </div>
+                </mat-toolbar-row>
+
+            </mat-toolbar>
+      <!-- <app-row-nav>
       <div fxFlex.xs="376" fxHide.gt-xs = "true" fxHide.xs = "false">
         <button mat-icon-button >
             <mat-icon>menu</mat-icon>
           </button>
       </div>
-    </app-row-nav><router-outlet></router-outlet></div>
-    <div fxLayout.gt-md="row" fxLayout.lt-md="column"  fxLayoutGap="10px" fxFlex="100"  >
+    </app-row-nav> -->
 
+    <router-outlet></router-outlet></div>
+    <div >
+        <mat-sidenav-container class = "sidebar-container">
+
+            <mat-sidenav #sidenav mode = "over" (click)="sidenav.toggle()" >
+              <mat-nav-list>
+
+                <a mat-list-item [routerLink]="'/'"> Home </a>
+                <a mat-list-item [routerLink]="'/description'"> Description </a>
+                <a mat-list-item [routerLink]="'/workhours'"> Work Hours </a>
+                <a mat-list-item [routerLink]="'/vip_apply'"> VIP Card </a>
+                <a mat-list-item [routerLink]="'/reservations'"> Reservation </a>
+                <a mat-list-item [routerLink]="'/about'"> About </a>
+                <a mat-list-item (click)="sidenav.toggle()" href="" mat-list-item>Close</a>
+
+              </mat-nav-list>
+            </mat-sidenav>
+            <mat-sidenav-content fullscreen>
+
+
+                <router-outlet></router-outlet>
+
+                <div class = "card" fxLayout.gt-md="row" fxLayout.lt-md="column"  fxLayoutGap="10px" fxFlex="100"  >
       <div fxFlex.gt-md="80" fxFlex. class = primary>2 <router-outlet></router-outlet></div>
       <div fxFlex.gt-md="20" class = "secondary">3</div>
+    </div>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
     </div>
 
 
@@ -30,8 +85,8 @@
 </main>
 
 <footer>
-<div fxFlex.lt-md="50" fxFlex.lt-sm="100" >
+<div  >
   <app-tail>
 </app-tail></div>
 </footer>
-</mat-sidenav-container>
+

@@ -6,7 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./reservations.component.css']
 })
 export class ReservationsComponent implements OnInit {
-
+  latitude = 39.017133;
+  longitude = -77.372330;
+  mapType = 'roadmap';
   constructor() { }
 
   ngOnInit() {

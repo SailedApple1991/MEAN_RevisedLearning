@@ -23,6 +23,8 @@ import { WorkHoursComponent } from './card/work-hours/work-hours.component';
 import { VipCardComponent } from './card/vip-card/vip-card.component';
 import { ReservationsComponent } from './card/reservations/reservations.component';
 import { AboutComponent } from './card/about/about.component';
+import { AgmCoreModule } from '@agm/core';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -53,7 +55,10 @@ import { AboutComponent } from './card/about/about.component';
     MatCarouselModule,
     FlexLayoutModule,
     MatTabsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyA6EHvmpMAYLP6PQ2t6v4l04GXzNeYrQho'
+    })
   ],
   exports: [
     BrowserModule,
