@@ -7,7 +7,7 @@ import { WorkHoursComponent } from './card/work-hours/work-hours.component';
 import { VipCardComponent } from './card/vip-card/vip-card.component';
 import { ReservationsComponent } from './card/reservations/reservations.component';
 import { AboutComponent } from './card/about/about.component';
-import { SidenavComponent } from './nav/side-nav/sidenav.component';
+import { SidenavComponent } from './nav/sidenav/sidenav.component';
 
 const routes: Routes = [
   { path: '', component: MainCardComponent},

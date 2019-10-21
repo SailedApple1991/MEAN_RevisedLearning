@@ -1,6 +1,10 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <meta name='viewport' content='width=device-width，initial-scale=1'>
-<app-header></app-header>
+<mat-sidenav-container class = "sidebar-container">
+    <mat-sidenav #sideNav  [(opened)] = "opened" mode = "side" class = "sidebar" ></mat-sidenav>
+
+<header><app-header></app-header>
+</header>
 <main>
   <!-- <app-post-create>
 
@@ -9,7 +13,11 @@
 
   <div fxLayout="column"  fxLayoutGap="10px">
     <div fxFlex.lt-md="50" fxFlex.lt-sm="100" ><app-row-nav>
-
+      <div fxFlex.xs="376" fxHide.gt-xs = "true" fxHide.xs = "false">
+        <button mat-icon-button >
+            <mat-icon>menu</mat-icon>
+          </button>
+      </div>
     </app-row-nav><router-outlet></router-outlet></div>
     <div fxLayout.gt-md="row" fxLayout.lt-md="column"  fxLayoutGap="10px" fxFlex="100"  >
 
@@ -17,13 +25,13 @@
       <div fxFlex.gt-md="20" class = "secondary">3</div>
     </div>
 
-    <div fxFlex.lt-md="50" fxFlex.lt-sm="100" >
-      <app-tail>
-    </app-tail></div>
+
   </div>
 </main>
 
-
-
-
-
+<footer>
+<div fxFlex.lt-md="50" fxFlex.lt-sm="100" >
+  <app-tail>
+</app-tail></div>
+</footer>
+</mat-sidenav-container>

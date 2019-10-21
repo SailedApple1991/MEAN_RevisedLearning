@@ -14,7 +14,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { RowNavComponent } from './nav/row-nav/row-nav.component';
 import { TailComponent } from './tail/tail.component';
-import { SidenavComponent } from './nav/side-nav/sidenav.component';
+import { SidenavComponent } from './nav/sidenav/sidenav.component';
 import { MainCardComponent } from './card/main-card/main-card.component';
 import { from } from 'rxjs';
 import { ServeItemsComponent } from './tabs/serve-items/serve-items.component';

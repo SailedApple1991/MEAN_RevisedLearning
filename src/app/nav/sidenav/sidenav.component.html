@@ -1,0 +1,13 @@
+
+<!-- <app-row-nav (toggleSidenav)="navigationSidenav.toggle()">
+</app-row-nav> -->
+
+<mat-sidenav-container >
+<!-- <button mat-icon-button (click)="toggleSidenav.toggle()"></button>     -->
+<button mat-icon-button (click)="toggleSidenav.toggle()">
+    <mat-icon>menu</mat-icon>
+  </button>
+<mat-sidenav #navigationSidenav mode="over" role="navigation">Start</mat-sidenav>
+  <mat-sidenav position="end">End</mat-sidenav>
+  <section>Main</section>
+</mat-sidenav-container>

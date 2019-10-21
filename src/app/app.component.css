@@ -59,3 +59,15 @@ main {
   flex:1;
 
 }
+.sidebar-container {
+  height : 100%;
+}
+
+.sidebar, .sidebar-content{
+    padding: 16px;
+}
+
+.sidebar{
+  background-color: lightcoral;
+  width: 20px;
+}
