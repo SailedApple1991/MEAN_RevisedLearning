@@ -1,6 +1,8 @@
 main {
   margin-top: 1rem;
-
+  padding-top: 5rem;
+  height: 100%;
+  display: block;
 }
 .card{
   min-height: 80%;
@@ -31,6 +33,9 @@ main {
 
 
 } */
+.card{
+  flex-basis: 100%;
+}
 
 .navbar {
   justify-content: space-between;
@@ -89,4 +94,26 @@ span{
 .sidebar{
   background-color: lightcoral;
   width: 20px;
+}
+
+
+
+header
+{
+  position : fixed;
+	margin: 0px;
+	z-index: 3;
+	font-family: cursive;
+	border: 1px solid gray;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	line-height: 23px;
+	height: 40px;
+	width: 100%;
+	background-color: white;
+}
+.mat-toolbar-row{
+	margin: 0px;
+	z-index: 3;
+	position: fixed;
 }
