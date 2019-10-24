@@ -101,7 +101,7 @@ span{
 
 header
 {
-  position : fixed;
+  /* position : fixed; */
 	margin: 0px;
 	z-index: 3;
 	font-family: cursive;
@@ -116,5 +116,5 @@ header
 .mat-toolbar-row{
 	margin: 0px;
 	z-index: 3;
-	position: fixed;
+
 }
