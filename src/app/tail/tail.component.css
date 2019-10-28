@@ -1,5 +1,6 @@
 mat-toolbar{
   background: #4c5c65;
+  white-space: normal;
 }
 
 #footer-disclaimer p {

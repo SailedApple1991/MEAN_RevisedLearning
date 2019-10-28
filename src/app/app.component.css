@@ -1,8 +1,7 @@
 main {
   margin-top: 1rem;
-  padding-top: 5rem;
-  height: 100%;
-  display: block;
+  height : 100%;
+
 }
 .card{
   min-height: 80%;

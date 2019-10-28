@@ -25,3 +25,7 @@ div {
   font-style: normal;
   font-size: 10px;
 }
+
+mat-toolbar{
+  justify-content: space-between;
+}

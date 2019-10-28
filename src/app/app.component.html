@@ -8,7 +8,6 @@
 
   </app-post-create> -->
 
-
   <div fxLayout="column"  fxLayoutGap="10px">
     <div fxFlex.lt-md="50" fxFlex.lt-sm="100" >
         <mat-toolbar color="#fdd835" class = "navbar">
@@ -32,10 +31,10 @@
                   <div fxFlex fxLayout fxLayoutAlign="flex-end" fxHide.xs = "true">
                     <ul fxLayout fxLayoutGap="10px" class = "navigation-items">
                       <li><a mat-button routerLink="/" routerLinkActive="router-link-active">Home</a></li>
-                      <li><a mat-button routerLink="/description" routerLinkActive="router-link-active"  >Description</a></li>
+                      <li><a mat-button routerLink="/description" routerLinkActive="router-link-active"  >Service</a></li>
                       <li><a mat-button routerLink="/workhours" routerLinkActive="router-link-active"  >Work Hours</a></li>
+                      <li><a mat-button routerLink="/reservations" routerLinkActive="router-link-active" >Direction</a></li>
                       <li><a mat-button routerLink="/vip_apply" routerLinkActive="router-link-active" >VIP Card</a></li>
-                      <li><a mat-button routerLink="/reservations" routerLinkActive="router-link-active" >Reservation</a></li>
                       <li><a mat-button routerLink="/about" routerLinkActive="router-link-active" >About</a></li>
                     </ul>
                   </div>
@@ -58,10 +57,10 @@
               <mat-nav-list>
 
                 <a mat-list-item [routerLink]="'/'"> Home </a>
-                <a mat-list-item [routerLink]="'/description'"> Description </a>
+                <a mat-list-item [routerLink]="'/description'"> Service </a>
                 <a mat-list-item [routerLink]="'/workhours'"> Work Hours </a>
+                <a mat-list-item [routerLink]="'/reservations'"> Direction </a>
                 <a mat-list-item [routerLink]="'/vip_apply'"> VIP Card </a>
-                <a mat-list-item [routerLink]="'/reservations'"> Reservation </a>
                 <a mat-list-item [routerLink]="'/about'"> About </a>
                 <a mat-list-item (click)="sidenav.toggle()" href="" mat-list-item>Close</a>
 
@@ -77,10 +76,16 @@
     </div>
     </mat-sidenav-content>
   </mat-sidenav-container>
+
     </div>
 
 
   </div>
+  <div><mat-card>12121</mat-card></div>
+  <!-- <div   >
+    <div fxFlex.gt-md="80" fxFlex. class = primary>212312312 <router-outlet></router-outlet></div>
+    <div fxFlex.gt-md="20" class = "secondary">312312312</div>
+  </div> -->
 </main>
 
 <footer fxLayout="column">
