@@ -24,6 +24,7 @@ import { VipCardComponent } from './card/vip-card/vip-card.component';
 import { ReservationsComponent } from './card/reservations/reservations.component';
 import { AboutComponent } from './card/about/about.component';
 import { AgmCoreModule } from '@agm/core';
+import { MainPageComponent } from './main/main-page/main-page.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import { AgmCoreModule } from '@agm/core';
     VipCardComponent,
     ReservationsComponent,
     AboutComponent,
+    MainPageComponent,
   ],
   imports: [
     BrowserModule,
