@@ -1,2 +1,10 @@
 agm-map {  height: 300px !important;
   width: 100%;  /* This is really important*/}
+
+  mat-card{
+
+    transition: none;
+    padding: 0px;
+    border-radius: 0px;
+    background:none;
+  }

@@ -46,8 +46,8 @@ export class MainCardComponent implements OnInit {
   public autoplay = true;
   public interval = 5000;
   public loop = true;
-  public hideArrows = false;
-  public hideIndicators = false;
+  public hideArrows = true;
+  public hideIndicators = true;
   public color: ThemePalette = 'primary';
   public maxWidth = 'auto';
   public proportion = 50;

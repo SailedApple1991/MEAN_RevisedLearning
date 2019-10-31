@@ -25,6 +25,7 @@ import { ReservationsComponent } from './card/reservations/reservations.componen
 import { AboutComponent } from './card/about/about.component';
 import { AgmCoreModule } from '@agm/core';
 import { MainPageComponent } from './main/main-page/main-page.component';
+import { MainArticleComponent } from './main/main-article/main-article.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import { MainPageComponent } from './main/main-page/main-page.component';
     ReservationsComponent,
     AboutComponent,
     MainPageComponent,
+    MainArticleComponent,
   ],
   imports: [
     BrowserModule,

@@ -8,9 +8,10 @@ import { VipCardComponent } from './card/vip-card/vip-card.component';
 import { ReservationsComponent } from './card/reservations/reservations.component';
 import { AboutComponent } from './card/about/about.component';
 import { SidenavComponent } from './nav/sidenav/sidenav.component';
+import { MainPageComponent } from './main/main-page/main-page.component';
 
 const routes: Routes = [
-  { path: '', component: MainCardComponent},
+  { path: '', component: MainPageComponent},
   { path: 'description', component: ServeItemsComponent},
   { path: 'workhours', component: WorkHoursComponent},
   { path: 'vip_apply', component: VipCardComponent},

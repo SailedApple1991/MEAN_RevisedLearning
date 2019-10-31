@@ -1,0 +1,33 @@
+.post img{
+  height: 100%;
+  width:100%;
+
+}
+.card{
+  max-width: 1280px;
+  margin: 0 auto;
+  /* padding: 0 30px; */
+}
+.primary{
+  flex:2;
+  min-width: 55%;
+
+
+}
+.secondary{
+	background-color:yellowgreen;
+  flex:1;
+  min-width: 45%;
+
+}
+.primary, .secondary{
+  min-width: 640px;
+  transition: none;
+  padding: 0px;
+  border-radius: 0px;
+  background:none;
+}
+.primary, .secondary:not([class*=mat-elevation-z]){
+  box-shadow: none;
+}
+
