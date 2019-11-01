@@ -1,5 +1,5 @@
 
-<mat-card style="height: 100%">
+<mat-card ngStyle.gt-md="height: 100%" ngStyle.lt-md="height: 50vw">
     <mat-card-content style="height: 100%">
 <agm-map [latitude]='lat' [longitude]='lng'  [zoom]="zoom"
 [mapTypeId]='mapType' (mapClick)="mapClicked($event)" >
