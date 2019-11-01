@@ -5,23 +5,12 @@
 }
 .card{
   max-width: 1280px;
-  margin: 0 auto;
-  /* padding: 0 30px; */
-}
-.primary{
-  flex:2;
-  min-width: 55%;
-
-
+  margin: 0 4vw;
 }
 .secondary{
-	background-color:yellowgreen;
-  flex:1;
-  min-width: 45%;
-
+	background-color:yellowgreen; 
 }
 .primary, .secondary{
-  min-width: 640px;
   transition: none;
   padding: 0px;
   border-radius: 0px;

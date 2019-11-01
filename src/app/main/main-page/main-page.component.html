@@ -1,18 +1,20 @@
+<div fxLayout="column" fxLayoutGap="1vh" fxFlex>
+  <div class="post" fxHide.xs="true">
+    <img src="../assets/post2.jpg">
+  </div>
+  <app-main-article></app-main-article>
 
-  <div fxLayout="column"  fxLayoutGap="10px" fxFlex="100">
-  <div class = "post" fxHide.xs = "true" >
-     <img  src = "../assets/post2.jpg">
-                      </div>
-    <app-main-article></app-main-article>
+  <!-- <router-outlet></router-outlet><app-main-card></app-main-card> -->
+  <div class="card" fxLayout.gt-md="row" fxLayout.lt-md="column" fxLayoutGap.gt-md="1vw" fxLayoutGap.lt-md="1vh" fxFlex
+    fxLayoutAlign="center center">
 
-<!-- <router-outlet></router-outlet><app-main-card></app-main-card> -->
- <div class = "card" fxLayout.gt-md="row" fxLayout.lt-md="column"  fxLayoutGap="10px" fxFlex="100"  >
-
-      <div fxFlex.gt-md="80" fxFlex. class = primary>2
-        <app-main-card></app-main-card>
-</div>
-    <div fxFlex.gt-md="20" class = "secondary">3 <app-reservations></app-reservations></div>
-</div>
+    <div fxFlex class="primary">
+      <app-main-card></app-main-card>
+    </div>
+    <div fxFlex class="secondary">
+      <app-reservations></app-reservations>
+    </div>
+  </div>
 </div>
 
 <!-- <div fxFlex.gt-md="20" class = "secondary">3</div> -->
