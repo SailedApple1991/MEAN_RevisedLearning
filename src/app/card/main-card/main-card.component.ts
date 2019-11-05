@@ -50,7 +50,7 @@ export class MainCardComponent implements OnInit {
   public hideIndicators = true;
   public color: ThemePalette = 'primary';
   public maxWidth = 'auto';
-  public proportion = 50;
+  public proportion = 75;
   public slides = this.slidesList.length;
   public overlayColor = '#00000040';
   public hideOverlay = false;

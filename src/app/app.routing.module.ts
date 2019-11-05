@@ -17,7 +17,10 @@ const routes: Routes = [
   { path: 'vip_apply', component: VipCardComponent},
   { path: 'reservations', component: ReservationsComponent},
   { path: 'about', component: AboutComponent},
-  { path: 'sidenav', component: SidenavComponent}
+  { path: 'sidenav', component: SidenavComponent},
+  { path: 'description/deeptissue-tab', component: ServeItemsComponent},
+  { path: 'description/swedish-tab', component: ServeItemsComponent},
+  { path: 'description/hotstone-tab', component: ServeItemsComponent},
 ];
 
 @NgModule({

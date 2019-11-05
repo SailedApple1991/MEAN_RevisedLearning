@@ -4,6 +4,10 @@
   text-align: center;
 }
 
+img{
+  height: 370px;
+  width : 470px;
+}
 .main-div{
   height: 100vh;
   display: flex;

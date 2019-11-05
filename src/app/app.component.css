@@ -1,6 +1,6 @@
 main {
   margin-top: 1rem;
-  min-height : 1200px;
+
 
 }
 
@@ -37,7 +37,7 @@ main {
 
 .navbar {
   justify-content: space-between;
-  background-color : #a1e999;
+  background-color : #B360D5;
 
 }
 span{

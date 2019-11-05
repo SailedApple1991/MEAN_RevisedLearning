@@ -26,6 +26,7 @@ import { AboutComponent } from './card/about/about.component';
 import { AgmCoreModule } from '@agm/core';
 import { MainPageComponent } from './main/main-page/main-page.component';
 import { MainArticleComponent } from './main/main-article/main-article.component';
+import { MainIntroComponent } from './main/main-intro/main-intro.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import { MainArticleComponent } from './main/main-article/main-article.component
     AboutComponent,
     MainPageComponent,
     MainArticleComponent,
+    MainIntroComponent,
   ],
   imports: [
     BrowserModule,

@@ -19,8 +19,8 @@ export class ReservationsComponent implements OnInit {
   markers: marker[] = [{
   lat: 39.017133,
 	lng: -77.372330,
-	label: 'A',
-	draggable: true
+	label: 'Massage Pros Sterling',
+	draggable: false
     }
   ];
   mapClicked($event: MouseEvent) {
@@ -30,6 +30,7 @@ export class ReservationsComponent implements OnInit {
     //   draggable: true
     // });
     window.open('https://www.google.com/maps/search/?api=1&query=Massage+PROS+Sterling', '_blank');
+    // window.open('https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJCeSqUXs3tokRX9RzjaEFRTg&fields=name,rating,formatted_phone_number&key=AIzaSyA6EHvmpMAYLP6PQ2t6v4l04GXzNeYrQho');
   }
   markerDragEnd(m: marker, $event: MouseEvent) {
     console.log('dragEnd', m, $event);

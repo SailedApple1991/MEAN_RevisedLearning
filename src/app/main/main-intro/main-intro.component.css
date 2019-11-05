@@ -1,0 +1,14 @@
+.article{
+  margin: 0 auto;
+  padding-top:40px;
+  padding-bottom: 10px;
+  padding-left: 5 vh;
+}
+
+.text-center {
+  text-align: center;
+}
+.body-copy {
+  font-family: CentraleSansLight, Verdana, Helvetica, sans-serif;
+  color: #4c5c65;
+}
