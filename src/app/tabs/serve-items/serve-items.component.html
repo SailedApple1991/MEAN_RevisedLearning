@@ -49,9 +49,9 @@
 <nav mat-tab-nav-bar>
   <a mat-tab-link
   *ngFor="let link of tabLinks"
-  [routerLink]="link.link"
+  [routerLink]="[link.link]"
   routerLinkActive #rla="routerLinkActive"
-  [active]="rla.isActive">
+  [active]="link.isActive">
  {{link.label}}
 </a>
 </nav>
