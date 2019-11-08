@@ -1,8 +1,8 @@
 <div class="items-card" >
-    <mat-card class = {{item.title}} fxLayout="column" fxLayoutAlign="center stretch">
-    <mat-card-title>{{item.title}}</mat-card-title>
-    <mat-card-subtitle>{{item.subtitle}}</mat-card-subtitle>
-    <img mat-card-image #ServeItemsComponent src = {{item.image}}>
-    <mat-card-content>{{item.description}}</mat-card-content>
+    <mat-card  class  = {{item.title}} fxFlex fxLayout="column" fxLayoutAlign="center">
+        <mat-card-title style="text-align: center; padding-top: 5vh;"><span>{{item.title}}</span></mat-card-title>
+          <mat-card-subtitle style="text-align: center; padding-top: 2vh;"><span>{{item.subtitle}}</span></mat-card-subtitle>
+            <img mat-card-image #ServeItemsComponent src = {{item.image}}>
+          <mat-card-content style="text-align: center; padding-top: 5vh;" ><span>{{item.description}}</span></mat-card-content>
     </mat-card>
   </div>

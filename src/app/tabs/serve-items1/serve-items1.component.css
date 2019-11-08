@@ -1,15 +1,26 @@
-.items{
 
+mat-card-content{
+  margin: 0 auto;
+  width : 370px;
+  font-size: 14px;
+  line-height: 1.8;
+  margin-bottom: 1em;
 }
 
 img{
-  height: 370px;
-  width : 470px;
+  margin: 0 auto;
+  height: 270px;
+  width : 370px;
+  padding-top: 3vh;
 }
 .items-card{
-  margin: 10 100vw;
+  /* margin: 10 100vw; */
   /* align-self: center;
   display: flex;
   justify-content: center; */
+
+}
+
+span{
 
 }
