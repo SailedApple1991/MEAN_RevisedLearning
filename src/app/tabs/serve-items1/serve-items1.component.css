@@ -1,0 +1,15 @@
+.items{
+
+}
+
+img{
+  height: 370px;
+  width : 470px;
+}
+.items-card{
+  margin: 10 100vw;
+  /* align-self: center;
+  display: flex;
+  justify-content: center; */
+
+}

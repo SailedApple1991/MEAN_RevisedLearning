@@ -24,7 +24,7 @@ export class ServeItemsComponent implements OnInit {
   ];
   ngOnInit():void {
     this.router.events.subscribe((res) => {
-      this.activeLinkIndex = this.tabLinks.indexOf(this.tabLinks.find(tab => tab.link === '.' + this.router.url));
+      this.activeLinkIndex = this.tabLinks.indexOf(this.tabLinks.find(tab => tab.index === '.' + this.router.url));
   });
 
 

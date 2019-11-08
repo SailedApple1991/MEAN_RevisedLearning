@@ -1,1 +1,8 @@
-<p>serve-items1 works!</p>
+<div class="items-card" >
+    <mat-card class = {{item.title}} fxLayout="column" fxLayoutAlign="center stretch">
+    <mat-card-title>{{item.title}}</mat-card-title>
+    <mat-card-subtitle>{{item.subtitle}}</mat-card-subtitle>
+    <img mat-card-image #ServeItemsComponent src = {{item.image}}>
+    <mat-card-content>{{item.description}}</mat-card-content>
+    </mat-card>
+  </div>

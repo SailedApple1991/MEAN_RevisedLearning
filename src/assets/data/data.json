@@ -1,0 +1,19 @@
+[{
+  "id": "0",
+  "title": "Deep-tissue",
+  "image": "../assets/service/deeptissue.jpg",
+  "description": "This type of massage therapy delves deeply to reach muscle, fascia, and connective tissue. Applied judiciously by a skilled practitioner, it may help improve posture, ease movement, and release chronic tension. Pressure is strong."
+},
+{
+  "id": "1",
+  "title": "Swedish",
+  "image": "/assets/main-card/massage-therapy1.jpg",
+  "description": "Incorporates long, gliding strokes and kneading techniques on the upper layers of the muscles. This massage relaxes muscles, improves circulation, increases range of motion, and stimulates the skin and nervous system. It enhances balance and harmony while creating a sense of relaxed well-being. Haven's Signature massage oils reduce excessive friction and nourish your skin. Pressure can be light to medium."
+},
+{
+  "id": "2",
+  "title": "Hot-stone",
+  "image": "/assets/main-card/massage-therapy2.jpg",
+  "description": "Smooth, polished basalt lava stones are heated and placed strategically on areas carrying stress. The stones are then used as an extension of the therapist's hands to penetrate deep into the muscles for maximum muscle relaxation."
+}
+]

@@ -21,19 +21,11 @@ const routes: Routes = [
       {
         path : '',
         pathMatch: 'full',
-        redirectTo: 'deeptissue-tab'
+        redirectTo: '0'
       },
       {
-        path : 'deeptissue-tab',
+        path : ':id',
         component: ServeItems1Component
-      },
-      {
-        path : 'swedish-tab',
-        component: ServeItems2Component
-      },
-      {
-        path : 'hotstone-tab',
-        component: ServeItems3Component
       },
     ]},
   { path: 'workhours', component: WorkHoursComponent},
