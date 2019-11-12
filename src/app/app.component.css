@@ -32,8 +32,8 @@ main {
 } */
 .header-location-name-right a{
   /* float: right; */
-  height: 64px;
-  color: #fff;
+  /* height: 64px; */
+
   font-size: 26px;
   font-family: CentraleSansBold;
   text-decoration: none;
@@ -46,6 +46,16 @@ main {
   font-size: 32px;
   font-family: CentraleSansBold;
 }
+.header-phone-link{
+  color: #fff;
+}
+.subtitle-button{
+  background-color: #fff ;
+  color : #8860d0;
+  margin-bottom:10px;
+}
+
+
 .card{
   flex-basis: 100%;
   height: 100%;
