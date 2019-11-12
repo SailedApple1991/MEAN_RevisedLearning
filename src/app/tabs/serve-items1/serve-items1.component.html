@@ -3,6 +3,6 @@
         <mat-card-title style="text-align: center; padding-top: 5vh;"><span>{{item.title}}</span></mat-card-title>
           <mat-card-subtitle style="text-align: center; padding-top: 2vh;"><span>{{item.subtitle}}</span></mat-card-subtitle>
             <img mat-card-image #ServeItemsComponent src = {{item.image}}>
-          <mat-card-content style="text-align: center; padding-top: 5vh;" ><span>{{item.description}}</span></mat-card-content>
+          <mat-card-content style="text-align: center; padding-top: 5vh;" ><p [innerHTML]=description></p></mat-card-content>
     </mat-card>
   </div>

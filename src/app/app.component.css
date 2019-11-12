@@ -30,15 +30,37 @@ main {
 
 
 } */
+.header-location-name-right a{
+  /* float: right; */
+  height: 64px;
+  color: #fff;
+  font-size: 26px;
+  font-family: CentraleSansBold;
+  text-decoration: none;
+}
+.header-location-name-left h2 {
+  line-height: 64px;
+    padding: 0;
+  color: #fff;
+  height: 64px;
+  font-size: 32px;
+  font-family: CentraleSansBold;
+}
 .card{
   flex-basis: 100%;
   height: 100%;
 }
 
 .navbar {
+  color: #fff;
+  justify-content: space-between;
+  background-color : #8860d0;
+
+}
+.sub-navbar{
+  height: 100%;
   justify-content: space-between;
   background-color : #B360D5;
-
 }
 span{
   padding-right: 1rem;
@@ -80,8 +102,8 @@ header
 	z-index: 3;
 	font-family: cursive;
 	border: 1px solid gray;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	/* padding-top: 10px;
+	padding-bottom: 10px; */
 	line-height: 23px;
 	height: 40px;
 	width: 100%;
