@@ -15,13 +15,16 @@ export class ServeItemsComponent implements OnInit {
     {label: 'Deep Tissue', link: 'deeptissue-tab', index: 0},
     {label: 'Swedish', link: 'swedish-tab', index: 1},
     {label: 'Hot Stone Massage', link: 'hotstone-tab', index: 2},
-  ];}
-  public picsList: any[] = [
-    {image : '../assets/service/deeptissue.jpg'},
-    {image : '/assets/main-card/massage-therapy1.jpg'},
-    {image : '/assets/main-card/massage-therapy2.jpg'},
-    {image : '/assets/main-card/massage-therapy3.jpg'},
+    {label: 'Sports', Link: 'sports-tab', index: 3},
+    {label: 'Prenatal', Link: 'pregnancy-tab', index: 4}
   ];
+}
+  // public picsList: any[] = [
+  //   {image : '../assets/service/deeptissue.jpg'},
+  //   {image : '/assets/main-card/massage-therapy1.jpg'},
+  //   {image : '/assets/main-card/massage-therapy2.jpg'},
+  //   {image : '/assets/main-card/massage-therapy3.jpg'},
+  // ];
   ngOnInit():void {
     this.router.events.subscribe((res) => {
       this.activeLinkIndex = this.tabLinks.indexOf(this.tabLinks.find(tab => tab.index === '.' + this.router.url));
