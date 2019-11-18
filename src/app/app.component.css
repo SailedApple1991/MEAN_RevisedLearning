@@ -64,13 +64,13 @@ main {
 .navbar {
   color: #fff;
   justify-content: space-between;
-  background-color : #8860d0;
+  background-color : #c796d6;
 
 }
 .sub-navbar{
   height: 100%;
   justify-content: space-between;
-  background-color : #B360D5;
+  background-color : #d4b5fa;
 }
 span{
   padding-right: 1rem;

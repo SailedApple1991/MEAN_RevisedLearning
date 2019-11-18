@@ -1,14 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 import { MouseEvent } from '@agm/core';
 @Component({
-  selector: 'app-reservations',
-  templateUrl: './reservations.component.html',
-  styleUrls: ['./reservations.component.css']
+  selector: 'app-streetview',
+  templateUrl: './streetview.component.html',
+  styleUrls: ['./streetview.component.css']
 })
-export class ReservationsComponent implements OnInit {
+export class StreetviewComponent implements OnInit {
   // latitude = 39.017133;
   // longitude = -77.372330;
-  mapType = 'roadmap';
+  mapType = 'streetview';
   // google maps zoom level
   zoom: number = 12;
 

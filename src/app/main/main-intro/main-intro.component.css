@@ -12,3 +12,7 @@
   font-family: CentraleSansLight, Verdana, Helvetica, sans-serif;
   color: #4c5c65;
 }
+
+ul{
+  list-style: none ;
+}

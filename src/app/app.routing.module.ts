@@ -12,6 +12,7 @@ import { MainPageComponent } from './main/main-page/main-page.component';
 import { ServeItems1Component } from './tabs/serve-items1/serve-items1.component';
 import { ServeItems2Component } from './tabs/serve-items2/serve-items2.component';
 import { ServeItems3Component } from './tabs/serve-items3/serve-items3.component';
+import { DirectionsComponent } from './card/directions/directions.component';
 
 const routes: Routes = [
   { path: '', component: MainPageComponent},
@@ -30,7 +31,7 @@ const routes: Routes = [
     ]},
   { path: 'workhours', component: WorkHoursComponent},
   { path: 'vip_apply', component: VipCardComponent},
-  { path: 'reservations', component: ReservationsComponent},
+  { path: 'directions', component: DirectionsComponent},
   { path: 'about', component: AboutComponent},
   { path: 'sidenav', component: SidenavComponent},
   // { path: 'description/deeptissue-tab', component: ServeItemsComponent},

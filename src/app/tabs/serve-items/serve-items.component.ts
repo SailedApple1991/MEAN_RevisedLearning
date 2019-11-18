@@ -16,7 +16,8 @@ export class ServeItemsComponent implements OnInit {
     {label: 'Swedish', link: 'swedish-tab', index: 1},
     {label: 'Hot Stone Massage', link: 'hotstone-tab', index: 2},
     {label: 'Sports', Link: 'sports-tab', index: 3},
-    {label: 'Prenatal', Link: 'pregnancy-tab', index: 4}
+    {label: 'Prenatal', Link: 'pregnancy-tab', index: 4},
+    {label: 'Himalayan Salt Stone', Link: 'Himalayan-tab', index: 5}
   ];
 }
   // public picsList: any[] = [

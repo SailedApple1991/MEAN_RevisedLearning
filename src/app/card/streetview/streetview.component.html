@@ -1,0 +1,16 @@
+
+<mat-card [ngStyle.gt-md]="{'height': '100%'}"ngStyle.lt-md="height: 50vw" [ngStyle.md]="{'height': '100%'}">
+  <mat-card-content style="height: 100%" >
+<agm-map [latitude]='lat' [longitude]='lng'  [zoom]="zoom"
+[mapTypeId]='mapType' (mapClick)="mapClicked($event)" >
+<agm-marker  *ngFor="let m of markers; let i = index"
+(markerClick)="clickedMarker(m.label, i)"
+[latitude]="m.lat"
+[longitude]="m.lng"
+[label]="m.label"
+[markerDraggable]="m.draggable"
+(dragEnd)="markerDragEnd(m, $event)"><agm-info-window>Börk</agm-info-window></agm-marker>
+
+</agm-map>qeweqwe
+</mat-card-content>
+</mat-card>

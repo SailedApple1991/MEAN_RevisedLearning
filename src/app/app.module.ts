@@ -30,6 +30,8 @@ import { MainIntroComponent } from './main/main-intro/main-intro.component';
 import { ServeItems1Component } from './tabs/serve-items1/serve-items1.component';
 import { ServeItems2Component } from './tabs/serve-items2/serve-items2.component';
 import { ServeItems3Component } from './tabs/serve-items3/serve-items3.component';
+import { StreetviewComponent } from './card/streetview/streetview.component';
+import { DirectionsComponent } from './card/directions/directions.component';
 
 @NgModule({
   declarations: [
@@ -51,6 +53,8 @@ import { ServeItems3Component } from './tabs/serve-items3/serve-items3.component
     ServeItems1Component,
     ServeItems2Component,
     ServeItems3Component,
+    StreetviewComponent,
+    DirectionsComponent,
   ],
   imports: [
     BrowserModule,
