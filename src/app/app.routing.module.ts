@@ -14,6 +14,7 @@ import { ServeItems2Component } from './tabs/serve-items2/serve-items2.component
 import { ServeItems3Component } from './tabs/serve-items3/serve-items3.component';
 import { DirectionsComponent } from './card/directions/directions.component';
 
+
 const routes: Routes = [
   { path: '', component: MainPageComponent},
   // { path: 'description', component: ServeItemsComponent},
@@ -30,7 +31,7 @@ const routes: Routes = [
       },
     ]},
   { path: 'workhours', component: WorkHoursComponent},
-  { path: 'vip_apply', component: VipCardComponent},
+  { path: 'pricing', component: VipCardComponent},
   { path: 'directions', component: DirectionsComponent},
   { path: 'about', component: AboutComponent},
   { path: 'sidenav', component: SidenavComponent},

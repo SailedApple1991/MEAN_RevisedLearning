@@ -16,6 +16,7 @@ import { RowNavComponent } from './nav/row-nav/row-nav.component';
 import { TailComponent } from './tail/tail.component';
 import { SidenavComponent } from './nav/sidenav/sidenav.component';
 import { MainCardComponent } from './card/main-card/main-card.component';
+import {MatTableModule} from '@angular/material/table';
 import { from } from 'rxjs';
 import { ServeItemsComponent } from './tabs/serve-items/serve-items.component';
 import { AppRoutingModule } from './app.routing.module';
@@ -31,6 +32,7 @@ import { ServeItems1Component } from './tabs/serve-items1/serve-items1.component
 import { ServeItems2Component } from './tabs/serve-items2/serve-items2.component';
 import { ServeItems3Component } from './tabs/serve-items3/serve-items3.component';
 import { StreetviewComponent } from './card/streetview/streetview.component';
+import { MatPaginatorModule} from '@angular/material/paginator';
 import { DirectionsComponent } from './card/directions/directions.component';
 
 @NgModule({
@@ -63,9 +65,11 @@ import { DirectionsComponent } from './card/directions/directions.component';
     MatInputModule,
     MatCardModule,
     MatButtonModule,
+    MatPaginatorModule,
     MatToolbarModule,
     LayoutModule,
     MatSidenavModule,
+    MatTableModule,
     MatIconModule,
     MatListModule,
     MatCarouselModule,
@@ -87,6 +91,8 @@ import { DirectionsComponent } from './card/directions/directions.component';
     LayoutModule,
     MatSidenavModule,
     MatIconModule,
+    MatPaginatorModule,
+    MatTableModule,
     MatListModule,
     MatCarouselModule,
     FlexLayoutModule,
