@@ -36,12 +36,12 @@ export class MainCardComponent implements OnInit {
 
   // public slidesList = new Array<never>(5);
   public slidesList: any[] = [
-    {image : '/assets/main-card/gate.jpg'},
-    {image : '/assets/main-card/DSC_7809.jpg'},
-    {image : '/assets/main-card/DSC_7811-2.jpg'},
-    {image : '/assets/main-card/DSC_7834-2.jpg'},
-    {image : '/assets/main-card/DSC_7851.jpg'},
-    {image : '/assets/main-card/inside.jpg'},
+    {image : '/assets/main-card/DSC_8605-4.jpg'},
+    {image : '/assets/main-card/DSC_8671-2.jpg'},
+    {image : '/assets/main-card/DSC_8718.jpg'},
+    {image : '/assets/main-card/DSC_8654-4.jpg'},
+    {image : '/assets/main-card/DSC_8650.jpg'},
+    {image : '/assets/main-card/DSC_8741.jpg'},
   ];
   public showContent = false;
   public timings = '250ms ease-in';
