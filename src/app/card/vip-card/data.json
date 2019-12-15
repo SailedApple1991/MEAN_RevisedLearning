@@ -18,36 +18,44 @@
   "id":2,
   "Name":"Hot Stone Massage",
   "Option1":{"time":"60 min",
-             "price":"$60" },
+             "price":"$80" },
   "Option2":{"time":"90 min",
-              "price":"$90" }
+              "price":"$120" }
 },
 {
   "id":3,
   "Name":"Himalayan Salt Stone Massage",
   "Option1":{"time":"60 min",
-             "price":"$60" },
+             "price":"$80" },
   "Option2":{"time":"90 min",
-              "price":"$90" }
+              "price":"$120" }
 },
 {
   "id":4,
   "Name":"Sports Massage",
   "Option1":{"time":"60 min",
-             "price":"$60" },
+             "price":"$80" },
   "Option2":{"time":"90 min",
-              "price":"$90" }
+              "price":"$120" }
 },
 {
   "id":5,
   "Name":"Prenatal Massage",
   "Option1":{"time":"60 min",
-             "price":"$60" },
+             "price":"$80" },
   "Option2":{"time":"90 min",
-              "price":"$90" }
+              "price":"$120" }
 },
 {
   "id":6,
+  "Name":"Thai Massage",
+  "Option1":{"time":"30 min",
+             "price":"$80" },
+  "Option2":{"time":"90 min",
+              "price":"120" }
+},
+{
+  "id":7,
   "Name":"Infrared Sauna",
   "Option1":{"time":"30 min",
              "price":"$30" },
@@ -55,7 +63,7 @@
               "price":"" }
 },
 {
-  "id":7,
+  "id":8,
   "Name":"Relaxology",
   "Option1":{"time":"30 min",
              "price":"$30" },
